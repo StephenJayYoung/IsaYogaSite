@@ -24,6 +24,9 @@
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
+    <!-- Responsive Calendar CSS -->
+    <link rel = "stylesheet" href = "css/res-timeline.css"/>
+
     <!-- my own (overwritten) CSS -->
     <link href="css/stylesheet.css" rel="stylesheet">
 
@@ -58,7 +61,20 @@
     userFeed.run();
 </script>
 
+    <!-- JS for the responsive calendar -->
+<script type = "text/javascript" src="js/res-timeline.js"></script>
 
+    <!-- more JS for the responsive calendar -->
+    <script type= "text/javascript">
+    $(document).ready(function(){
+
+        $('div.jflatTimeline').jflatTimeline({
+                                scroll : '2',    //max dates scrolling per arrow click
+                                width : '60%', //width; It can also be done with css. - .jflatTimeline{width : x%;}
+                                scrollingTime : '300' // scrolling time
+                            });
+    })
+    </script>
 
 </head>
 
