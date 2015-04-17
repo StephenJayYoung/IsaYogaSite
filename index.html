@@ -37,9 +37,6 @@
 
     <link rel = "stylesheet" href = "css/res-timeline.css"/>
 
-    <!-- JS for the responsive calendar -->
-    <script type = "text/javascript" src="js/res-timeline.js"></script>
-
      <!-- JS min file for the instagram API -->
     <script src="js/instafeed.min.js"></script>
    <!-- JS for the instagram API -->
@@ -67,6 +64,23 @@
 });
     userFeed.run();
 </script>
+
+    <script type = "text/javascript" src = "js/jquery.min.js"></script> 
+
+    <!-- JS for the responsive calendar -->
+    <script type = "text/javascript" src="js/res-timeline.js"></script>
+        <!-- JS for the responsive calendar -->
+    <script type= "text/javascript">
+    $(document).ready(function(){
+
+        $('div.jflatTimeline').jflatTimeline({
+                                scroll : '2',    //max dates scrolling per arrow click
+                                width : '60%', //width; It can also be done with css. - .jflatTimeline{width : x%;}
+                                scrollingTime : '300' // scrolling time
+                            });
+    })
+    </script>
+
 
 </head>
 
@@ -208,19 +222,6 @@
     </section>
 
         <!-- Calendar Section -->
-    <!-- JS for the responsive calendar -->
-    <script type= "text/javascript">
-    $(document).ready(function(){
-
-        $('div.jflatTimeline').jflatTimeline({
-                                scroll : '2',    //max dates scrolling per arrow click
-                                width : '60%', //width; It can also be done with css. - .jflatTimeline{width : x%;}
-                                scrollingTime : '300' // scrolling time
-                            });
-    })
-    </script>
-
-
     <section id="calendar" class="bg-light-gray">
         <div class="container-fluid">
             <div class="row-fluid">
@@ -1004,6 +1005,8 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
+
+
 
 </body>
 
