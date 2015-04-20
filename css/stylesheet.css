@@ -54,12 +54,12 @@ a:active {
 /* CSS for calendar events to be edited*/
 .left{
   float : left;
-  width : 50%;
+  width : 70%;
 }
 
 .left>img{
-  width : 100%;
-  padding: 0 15px 15px;;
+  width : 50%;
+  padding: 0 0px 0px;;
 }
 
 .right h3{
