@@ -51,47 +51,6 @@ a:active {
 }
 /* end link stuff*/
 
-/* CSS for calendar events to be edited*/
-.left{
-  float : left;
-  width : 70%;
-}
 
-.left>img{
-  width : 50%;
-  padding: 0 0px 0px;;
-}
 
-.right h3{
-  text-align : center;
-  font-size : 23px;
-  text-transform : uppercase;
-  margin : 5px 0 ;
-  color : #3E3E3E;
-}
-
-.calendar {
-  float : none;
-  width : 100%;
-  padding : 15px;
-  padding-right : 0;
-  display : table;
-}
-
-.jflatTimeline .timeline-wrap .event>div{
-  -moz-box-sizing : border-box;
-  -webkit-box-sizing : border-box;
-  box-sizing : border-box;
-  padding : 15px;
-  width : 100%;
-  display : table;
-}
-
-.jflatTimeline .timeline-wrap .event div.right{
-  -moz-box-sizing : border-box;
-  -webkit-box-sizing : border-box;
-  box-sizing : border-box;
-  padding : 15px;
-  padding-right : 0;
-}
 
