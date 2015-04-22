@@ -55,6 +55,11 @@ a:active {
 }
 /* end link stuff*/
 
+#descriptionText {
+  font-size: 120%;
+}
 
-
+#paragraphText {
+  font-size: 105%;
+}
 
