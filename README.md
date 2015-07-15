@@ -1,1 +1,1 @@
-# IsaYogaSite
+# IsaYogaSite: www.isabellayoga.com
